@@ -9,7 +9,7 @@ let mexer = document.querySelector('.social')
 
 nome.style.width='100%'
 email.style.width='100%'
-
+.indexOf()
 function validaNome(){
     let txt = document.querySelector('#txtNome')
     if(nome.value.length < 3){
