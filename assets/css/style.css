@@ -1,0 +1,109 @@
+/* Estilos da index.html*/
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bangers&display=swap');
+body{
+    background-image: linear-gradient(rgb(0, 0, 0),white,black);
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#menu li{
+    display: inline;
+    width: 70vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: 'Bangers', cursive;
+    font-size: 4.25rem;
+    padding: 2.25rem 1rem;
+   
+}
+
+#menu{
+    text-align: center;
+    display: flex;
+}
+#menu li a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    border-radius: 200px 200px 200px 200px;
+    background-color: rgba(0, 221, 255, 0.304);
+    color: white;
+    
+}
+.corNome{
+    color:rgb(0, 255, 255);
+}
+.corContato{
+    color: rgb(0, 255, 255);
+}
+.corIndex{
+    color:  rgb(0, 255, 255);
+    
+}
+
+.titulo{
+    text-align: center;
+    
+}
+ .container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ #texto{
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+ }
+ .imgOtavio{
+    border-radius: 5rem;
+ }
+ .wh{
+    width: 300px;
+    height: 300px;
+ }
+ .pad30{
+    padding: 30px;
+ }
+
+ .center{
+    text-align: center;
+ }
+
+ .video{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+
+ .social{
+    border-radius: 1rem;
+    background-color: rgba(206, 206, 206, 0.145);
+    margin: 10px;
+    padding: 20px;
+ }
+
+ .rodape{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+ }
+ 
+/* Estilos do contato.html*/
+
+.ml-50{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.tf{
+    font-size: 22px;
+}
+
+.img{
+    padding: 20px;
+}
